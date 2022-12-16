@@ -13,4 +13,4 @@ def generate_qrcode(text):
     img = qr.make_image(fill_color="black", back_color="white")
     img.save("qrimg.png")
 
-generate_qrcode("www.olx.pl")    
+generate_qrcode(input("Input your data: "))    
